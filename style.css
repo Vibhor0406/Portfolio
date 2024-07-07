@@ -430,7 +430,17 @@ footer {
 footer p {
   text-align: center;
 }
+
+/*  Publication Sections */
 #publications-and-certifications .publication, 
+#publications-and-certifications .project-title {
+  margin: 1rem auto;
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
 #publications-and-certifications .certifications {
   display: flex;
   flex-direction: column;
