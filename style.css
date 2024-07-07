@@ -380,6 +380,35 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+
+/*  Publication Sections */
+
+
+#publications-and-certifications {
+
+  position: relative;
+ 
+}
+
+.publication-title {
+  margin: 1rem;
+  color: black;
+}
+
+.publication-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.publication-images img {
+  max-width: 50%; 
+  height: auto; 
+}
+
+
+
 /* CONTACT */
 
 #contact {
@@ -429,28 +458,4 @@ footer {
 
 footer p {
   text-align: center;
-}
-
-/*  Publication Sections */
-#publications-and-certifications {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-}
-
-
-
-.publication-images {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  /* Ensure the container itself is centered */
-  align-items: center;
-}
-
-.publication-images img {
-  max-width: 50%; /* Makes image responsive */
-  height: auto; /* Maintains aspect ratio */
-  /* Set a specific max-height if required, e.g., max-height: 200px; */
 }
