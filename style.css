@@ -430,10 +430,6 @@ footer {
 footer p {
   text-align: center;
 }
-#publications-and-certifications {
-  text-align: center;
-}
-
 #publications-and-certifications .publication, 
 #publications-and-certifications .certifications {
   display: flex;
@@ -442,8 +438,17 @@ footer p {
 }
 
 .publication-images {
+  display: flex;
   justify-content: center;
   gap: 20px;
+  /* Ensure the container itself is centered */
+  align-items: center;
+}
+
+.publication-images img {
+  max-width: 100%; /* Makes image responsive */
+  height: auto; /* Maintains aspect ratio */
+  /* Set a specific max-height if required, e.g., max-height: 200px; */
 }
 
 .certifications ul {
