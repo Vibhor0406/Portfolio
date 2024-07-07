@@ -430,3 +430,27 @@ footer {
 footer p {
   text-align: center;
 }
+#publications-and-certifications {
+  text-align: center;
+}
+
+#publications-and-certifications .publication, 
+#publications-and-certifications .certifications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publication-images {
+  justify-content: center;
+  gap: 20px;
+}
+
+.certifications ul {
+  list-style-type: none; /* Removes the default list styling */
+  padding: 0; /* Removes the default padding */
+}
+
+.certifications li {
+  margin: 5px 0; /* Adds a little space between list items */
+}
